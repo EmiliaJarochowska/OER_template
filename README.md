@@ -5,19 +5,33 @@ Target audience: University students (BSc, MSc), interested laypeople, scientist
 
 Discipline: Earth sciences, geoscience, Evolutionary biology
 
-### License 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Attribution-NonCommercial-ShareAlike 4.0 International 
+### Usage
+#### File formats and editing
+Text and presentation files are provided as [Quarto](https://quarto.org/) files. This is an open source publishing format based on markdown. Quarto files can be edited using text editors and IDEs such as R Studio and rendered to any format: `docx`, `pdf`, `html`. You can preview the contents of the OER directly on GitHub in files with `.md` extension and `.html` files are provided in the Zenodo repository. 
 
-You are free to:
+If you would like to edit the OER and export it e.g. to Word or PDF, you can do it in three ways. 
 
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
+1. Edit `.html` files provided on Zenodo
+2. Edit and render Quarto files
 
-Under the following terms:
+   First, clone the repository.
+     - Open the file in R Studio, set the following line to your preferred format, e.g.: 
+    ```         
+    format: pdf
+    ```
+    And click `Render`.
+    - Change the line as above using any text editor and use Quarto CLI to render it:
+    ```         
+    quarto render
+    ```
 
-- Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- NonCommercial - You may not use the material for commercial purposes.
-- ShareAlike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+### Contents
+
+### How to contribute 
+If you would like to contribute to this OER, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### License
+Please see [LICENSE.md](LICENSE.md)
 
 ### Author
 __Emilia Jarochowska__  
